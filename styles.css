@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 6vh;
+    background: linear-gradient(Red, darkred);
+    position: fixed;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: Black;
+}
+
+#navbar h1 {
+    margin-top: 3px;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(65deg, darkred, black);
+}
+
+#welcome-section h1 {
+    font-size: 50px;
+}
+
+#welcome-section p {
+    font-size: 30px;
+}
+
+#projects {
+    height: 100vh;
+    background: linear-gradient(130deg, Black, darkred);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#project-tile {
+    width: 200px;
+    height: 200px;
+}
+
+#CC {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a,
+p {
+    color: darkred;
+}
+
+#contacts {
+    max-height: 50vh;
+    height: 50vh;
+    background: fixed url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96269ce8-4a07-4702-936a-6860e1b5594f/ddwesy7-d4de8f8f-8e23-4cca-b154-73c41abf7e1d.png/v1/fill/w_1315,h_607,q_70,strp/dark_red_background_2_by_venjix5_ddwesy7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI4IiwicGF0aCI6IlwvZlwvOTYyNjljZTgtNGEwNy00NzAyLTkzNmEtNjg2MGUxYjU1OTRmXC9kZHdlc3k3LWQ0ZGU4ZjhmLThlMjMtNGNjYS1iMTU0LTczYzQxYWJmN2UxZC5wbmciLCJ3aWR0aCI6Ijw9MTc5MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Pv0CL6h6ikjntgquZeDcn3j8Gy7JptH0wqmVbrwFWnQ);
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ct {
+    color: black;
+    margin-top: 55px;
+    font-size: 40px;
+    font-weight: 600;
+    height: 50px;
+}
+
+#links {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a,
+svg {
+    width: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    #navbar {
+        height: 4vh;
+    }
+
+    #navbar h1 {
+        font-size: 23px;
+        margin-top: 3px;
+    }
+
+    #welcome-section h1 {
+        font-size: 28px;
+    }
+
+    #welcome-section p {
+        font-size: 20px;
+    }
+
+    #project-tile {
+        width: 100px;
+        height: 100px;
+    }
+
+    #CC {
+        width: 120px;
+        height: 120px;
+    }
+
+    a svg {
+        width: 100px;
+        height: 150px;
+    }
+
+
+    img {
+        width: 130px;
+    }
+
+    #contacts {
+        background: linear-gradient(darkRed, black);
+    }
+
+    #ct {
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 600;
+        height: 50px;
+    }
+
+    #links {
+    width: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #Svg1,
+    #Svg2,
+    #Svg3 {
+        width: 60px;
+        height: 80px;
+    }
+
+    a,
+    p {
+        color: darkred;
+        font-size: 15px;
+    }
+
+}
