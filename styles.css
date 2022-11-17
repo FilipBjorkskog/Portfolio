@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    
 }
 
 #navbar {
@@ -36,7 +41,7 @@
 }
 
 #welcome-section p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #projects {
@@ -45,6 +50,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.txt1,
+.txt2,
+.txt3{
+    font-size: 25px;
+    width: 300px;
+}
+
+.txt1{
+    padding-left: 25px;
+}
+.txt2{
+    padding-left: 100px;
+}
+.txt3{
+    padding-left: 15px;
 }
 
 #project-tile {
@@ -98,7 +120,8 @@ p {
 
 a,
 svg {
-    width: 100px;
+    width: 160px;
+    height: 192;
 }
 
 @media only screen and (max-width: 768px) {
