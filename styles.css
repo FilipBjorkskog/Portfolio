@@ -92,9 +92,8 @@ p {
 }
 
 #contacts {
-    max-height: 50vh;
-    height: 50vh;
-    background: fixed url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96269ce8-4a07-4702-936a-6860e1b5594f/ddwesy7-d4de8f8f-8e23-4cca-b154-73c41abf7e1d.png/v1/fill/w_1315,h_607,q_70,strp/dark_red_background_2_by_venjix5_ddwesy7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI4IiwicGF0aCI6IlwvZlwvOTYyNjljZTgtNGEwNy00NzAyLTkzNmEtNjg2MGUxYjU1OTRmXC9kZHdlc3k3LWQ0ZGU4ZjhmLThlMjMtNGNjYS1iMTU0LTczYzQxYWJmN2UxZC5wbmciLCJ3aWR0aCI6Ijw9MTc5MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Pv0CL6h6ikjntgquZeDcn3j8Gy7JptH0wqmVbrwFWnQ);
+    height: 100vh;
+    background: black;
     background-size: contain;
     background-position: bottom;
     display: flex;
@@ -104,7 +103,7 @@ p {
 }
 
 #ct {
-    color: black;
+    color: red;
     margin-top: 55px;
     font-size: 40px;
     font-weight: 600;
@@ -126,7 +125,6 @@ svg {
 
 @media only screen and (max-width: 768px) {
 
-    /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
@@ -156,6 +154,14 @@ svg {
     #CC {
         width: 120px;
         height: 120px;
+    }
+
+    #ct {
+        color: red;
+
+        font-size: 40px;
+        font-weight: 600;
+        height: 50px;
     }
 
     a svg {
