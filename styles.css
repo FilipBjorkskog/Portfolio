@@ -16,6 +16,7 @@ body{
     height: 6vh;
     background: linear-gradient(Red, darkred);
     position: fixed;
+    z-index: 2;
 }
 
 #navbar a {
@@ -25,6 +26,10 @@ body{
 
 #navbar h1 {
     margin-top: 3px;
+}
+
+#navbar a:active{
+    scale: 1.1;
 }
 
 #welcome-section {
@@ -121,6 +126,14 @@ a,
 svg {
     width: 160px;
     height: 192;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1.6s;
+}
+.show{
+    opacity: 1;
 }
 
 @media only screen and (max-width: 768px) {
